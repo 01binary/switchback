@@ -35,3 +35,24 @@ Bridge: Floyd Rose FTR-O2000 double-locking 2-point tremolo
 Tuners: sealed die-cast tuners
 Additional Information:
 Strings: NPS, Gauges: .009, .011, .016, .024, .032, .042
+
+## 9-string specs
+
+Septor 9 String!
+Double cutaway, light weight, mahogany, arch top body with gloss finish
+30" scale 5 piece neck-through body design with 24 jumbo frets
+Ebony fretboard with position markers located on the side of the neck
+EMG 909 active pickups
+Cepheus 9 extended range bridge
+Grover die cast sealed tuners with 18-1 ratio
+Measurements
+
+Scale length: 30"
+Width of the neck at the nut: 2 1/2”
+Width of the neck at the 12th fret: 3 1/8"
+Width of the neck at the 24th fret: 3 3/8"
+String space at the bridge is 3/8" (3 1/4" overall)
+Thickness of the neck at the 1st fret: 13/16"
+Thickness of the neck at the 12th fret: 15/16"
+Radius: 15”
+Labella String gauges: .009, .012, .015, .022, .030, .040, .054, .074 .090
