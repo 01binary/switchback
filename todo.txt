@@ -1,4 +1,3 @@
-Bottom pickup too close to edge
 How do pickups connect to electronic compartments?
 Figure out the thickness of front plate - take apart soloist?
 	Make sure I have wrench for that
@@ -6,4 +5,7 @@ New part for trimmed block
 	Get the wrench at Ace Hardware
 Need a slide-in mount for block
 Block mounting - need to get the mold started at CtrlH
+Details for head locks
 Designate guitar strap pins and get hole size
+--
+need 3 more 8-pin connectirs
