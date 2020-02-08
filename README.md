@@ -1,11 +1,11 @@
 
 <br>
 
-![switchback](./design/render/logo.png)
+![switchback logo](./design/render/logo.png)
 
 <br>
 
-![switchback](./design/render/white-iso-logo.png)
+![switchback isometricc front render](./design/render/white-iso-logo.png)
 
 <br>
 
@@ -27,4 +27,19 @@ Custom double-neck guitar design with keyboard for playing [neurometal](https://
 
 <br>
 
-![switchback](./design/render/white-back-cover.png)
+![switchback isometric back render](./design/render/white-back-cover.png)
+
+<br>
+
+![flat front](./design/cad/svg/flat-front.svg)
+![flat top](./design/cad/svg/flat-top.svg)
+![flat back](./design/cad/svg/flat-back.svg)
+
+![isometric front](./design/cad/svg/iso-front.svg)
+![isometric back](./design/cad/svg/iso-back.svg)
+
+![exploded](./design/cad/svg/exploded-all.svg)
+
+![back components](./design/cad/svg/exploded-back.svg)
+
+![front components](./design/cad/svg/exploded-front.svg)
