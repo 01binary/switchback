@@ -31,6 +31,11 @@ Custom double-neck guitar design with keyboard for playing [neurometal](https://
 
 <br>
 
+![build 1](./design/build1.JPG)
+![build 2](./design/build2.JPG)
+
+<br>
+
 ![flat front](./design/cad/svg/flat-front.svg)
 ![flat top](./design/cad/svg/flat-top.svg)
 ![flat back](./design/cad/svg/flat-back.svg)
