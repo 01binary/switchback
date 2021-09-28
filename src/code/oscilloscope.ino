@@ -4,8 +4,29 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1305.h>
 
-const int OLED_CS = 10;
+// Place splash.h into Adafruit_SSD1305 folder on your machine to replace Adafruit logo
+#include "splash.h"
+
+/*
+  SSD1305 pins (left to right)
+
+  Screen    Arduino                 ItsyBitsy 3u4   Definition
+ 
+  [1] GND   GND                     GND             Ground
+  [2] 3V3   5V (shifted)            3V3             Power
+  
+  [4] DC    [8] Digital (shifted)   [8] Digital     OLED_DC
+  [7] SCLK  [13] SCLK (shifted)     SCLK            Hardware Clock Pin
+  [8] DIN   [11] MOSI (shifted)     MOSI            Hardware MOSI Pin
+  [15] CS   [10] CS (shifted)       [6] CS          OLED_CS
+  [16] RST  [9] Digital (shifted)   [9] Digital     Reset Pin
+
+  For 5V boards like Arduino Uno, everything goes through 5V to 3.3V level shifter
+ 
+*/
+
 const int OLED_DC = 8;
+const int OLED_CS = 10;
 const int OLED_RESET = 9;
 const int AUDIO_LEFT = A0;
 const int AUDIO_RIGHT = A1;
@@ -13,15 +34,20 @@ const int AUDIO_RIGHT = A1;
 const int MIN = 0;
 const int MAX = 1024;
 const int BIAS = 512;
-const int THRESHOLD = -48;
+// Signal level for "no signal"
+const int THRESHOLD = -50;
 const int WIDTH = 128;
+// Anti-alias smoothing multiplier
 const int ALIAS = 2;
 const int SAMPLES = WIDTH * ALIAS;
 const int HEIGHT = 32;
 const int HALF = HEIGHT / 2;
+// Sample average count
 const int AVG_COUNT = 32;
 const double AVG_MUL = 0.1;
+const int DRAW_DELAY = 50;
 
+// Using hardware SPI
 Adafruit_SSD1305 display(WIDTH, HEIGHT, &SPI, OLED_DC, OLED_RESET, OLED_CS, 7000000UL);
 
 short aud[SAMPLES] = {0};
@@ -43,6 +69,7 @@ void setup() {
 }
 
 void loop() {
+  // Only reading left channel (neurofunk basses have best parts in mono so it doesn't matter)
   int value = analogRead(AUDIO_LEFT) - BIAS;
  
   aud[sample++] = value;
@@ -108,32 +135,39 @@ void tuneRange()
 
 void draw()
 {
-  delay(50);
-  display.clearDisplay();
+  if (minCur < THRESHOLD) {
+    // Prevents from drawing too fast, which can look ugly and flickery
+    if (DRAW_DELAY) delay(DRAW_DELAY);
 
-  int lastx = 0;
-  int lasty = mapSample(aud[0]);
-  int smoothy = lasty;
- 
-  for (int x = 0; x < WIDTH; ++x)
-  {
-    int sum = 0;
+    display.clearDisplay();
+  
+    int lastx = 0;
+    int lasty = mapSample(aud[0]);
+    int smoothy = lasty;
    
-    for (int oversample = 0; oversample < ALIAS; ++oversample)
+    for (int x = 0; x < WIDTH; ++x)
     {
-      sum += aud[x];
+      int sum = 0;
+     
+      for (int oversample = 0; oversample < ALIAS; ++oversample)
+      {
+        sum += aud[x];
+      }
+  
+      int y = (mapSample(sum / ALIAS) + lasty + smoothy) / 3;
+     
+      display.drawLine(lastx, lasty, x, y, WHITE);
+  
+      smoothy = lasty;
+      lasty = y;
+      lastx = x;
     }
-
-    int y = (mapSample(sum / ALIAS) + lasty + smoothy) / 3;
-   
-    display.drawLine(lastx, lasty, x, y, WHITE);
-
-    smoothy = lasty;
-    lasty = y;
-    lastx = x;
+  
+    display.display();
+  } else {
+    // When "no signal", present the logo
+    drawSplash();
   }
-
-  display.display();
 }
 
 inline int mapSample(int value)
@@ -153,4 +187,21 @@ void initDisplay()
   display.display();
   delay(1000);
   display.clearDisplay();
+
+  Serial.println("Initialized");
+}
+
+void drawSplash()
+{
+  display.clearDisplay();
+    
+  display.drawBitmap(
+    (WIDTH - splash2_width) / 2,
+    (HEIGHT - splash2_height) / 2,
+    splash2_data,
+    splash2_width,
+    splash2_height,
+    1);
+    
+  display.display();
 }
