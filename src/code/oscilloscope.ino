@@ -1,4 +1,3 @@
-
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_GFX.h>
@@ -13,7 +12,7 @@
   Screen    Arduino                 ItsyBitsy 3u4   Definition
  
   [1] GND   GND                     GND             Ground
-  [2] 3V3   5V (shifted)            3V3             Power
+  [2] 3V3   3V3                     3V3             Power
   
   [4] DC    [8] Digital (shifted)   [8] Digital     OLED_DC
   [7] SCLK  [13] SCLK (shifted)     SCLK            Hardware Clock Pin
@@ -25,17 +24,23 @@
  
 */
 
+/*
+  When audio source is Left or Right audio channel from a bluetooth board such as Sunrom M28,
+  the Analog Ground of the bluetooth board has to be connected to Arduino/Itsy Bitsy ground.
+  In general, controller must always have common ground with audio signal or you get garbage.
+*/
+
 const int OLED_DC = 8;
 const int OLED_CS = 10;
 const int OLED_RESET = 9;
-const int AUDIO_LEFT = A0;
-const int AUDIO_RIGHT = A1;
+const int AUDIO = A2;
 
 const int MIN = 0;
 const int MAX = 1024;
 const int BIAS = 512;
 // Signal level for "no signal"
-const int THRESHOLD = -50;
+//const int THRESHOLD = -50;  // Uncomment if audio source is computer audio jack
+const int THRESHOLD = -60;  // Uncomment if audio source is bluetooth
 const int WIDTH = 128;
 // Anti-alias smoothing multiplier
 const int ALIAS = 2;
@@ -62,15 +67,13 @@ short maxAvg[AVG_COUNT] = {0};
 int maxSample = 0;
 
 void setup() {
-  pinMode(AUDIO_LEFT, INPUT);
-  pinMode(AUDIO_RIGHT, INPUT);
+  pinMode(AUDIO, INPUT);
 
   initDisplay();
 }
 
 void loop() {
-  // Only reading left channel (neurofunk basses have best parts in mono so it doesn't matter)
-  int value = analogRead(AUDIO_LEFT) - BIAS;
+  int value = analogRead(AUDIO) - BIAS;
  
   aud[sample++] = value;
 
