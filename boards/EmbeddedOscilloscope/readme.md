@@ -23,7 +23,7 @@ The embedded oscilloscope consists of the following components:
 |[LiPo Battery Backpack](https://www.adafruit.com/product/2124)|Provides `5V` power from the battery to the buck converter and also charges the battery from USB when controller is connected to USB|
 |[LiPo Battery](https://www.adafruit.com/product/1578)|Provides power to the embedded device|
 |[LM3671 Buck Converter](https://www.adafruit.com/product/2745)|Converts `5V` power from Lipo Backpack to `3.3V` for the controller
-|[M28 Wireless Bluetooth Audio Receiver](https://www.amazon.com/dp/B07W7YCFS1)|Advertizes BT Audio device, sends audio to ItsyBitsy ADC pin when audio data is received from connected client.
+|[M28 Wireless Bluetooth Audio Receiver](https://www.amazon.com/dp/B07W7YCFS1)|Advertizes BT Audio device, sends audio to Arduino ADC pin when audio data is received from connected client.
 |[DPDT Switch](https://www.amazon.com/dp/B008DFYHV2)|Power switch|
 
 ## Code
