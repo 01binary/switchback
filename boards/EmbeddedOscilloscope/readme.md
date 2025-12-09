@@ -8,7 +8,7 @@ This oscilloscope uses [Arduino Nano 33 BLE](https://store-usa.arduino.cc/produc
 
 The Audio source is a [Bluetooth Audio board](https://www.amazon.com/dp/B07W7YCFS1) that advertizes itself as an audio source to nearby devices.
 
-When a client connects and sends audio data, the signal from Bluetooth Audio `L` pin (Left Channel) goes through a small circuit that biases the input voltage and reduces the range from `5V` to `3.3V`:
+When a client connects and sends audio data, the signal from Bluetooth Audio goes through a bias and voltage divider circuit to make it possible to route it to the controller's ADC.
 
 ![audio circuit](./design/audio-circuit-kicad.png)
 

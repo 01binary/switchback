@@ -1,2 +1,4 @@
 src/OldVersions/**/*
 *.lck
+*.zip
+.DS_Store
