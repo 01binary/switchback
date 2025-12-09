@@ -38,30 +38,26 @@ The logo is encoded as a byte array in [splash.h](./src/splash.h), which is incl
 
 The current design results in a "sandwich" made of several components hot-glued together, with manual soldering necessary to connect the components:
 
-* OLED Screen
-* Bluetooth Board
-* LiPo backpack
-* Routing Board (contains the voltage bias/divider circuit and routes connections between all other components)
-* Lipo Battery
-* Switch
+|  |  |
+|--|--|
+|![sandwich middle](./design/sandwich1.png)|![sandwich back](./design//sandwich2.png)
 
-The width & height of the device are defined by the size of the OLED module, but the depth is defined by the height of each board and its components.
+The length & width of the device are defined by the size of the OLED module, but the depth is defined by the height of each board and its components.
 
-There are two issues with this design that need to be solved:
+The following issues with this design need to be solved:
 
-* The overall depth of the device is too large to fit into the guitar. While the OLED screen, routing board, and ItsyBitsy are low profile, the Bluetooth Audio Board and Lipo Backpack are "tall".
+* The overall depth of the device is too large to fit into the guitar. While the OLED screen, routing board, and the controller are relatively low profile, the Bluetooth Audio Board, Lipo Backpack, and Buck Converter are too tall.
 * The wires from the switch to Lipo Backpack keep breaking and need to be re-soldered all the time.
 * The wires from the SPI screen to the routing board sometimes get de-soldered as well.
 
-I tried a lower-profile Bluetooth Audio board from the same manufacturer - [M18](https://www.amazon.com/dp/B07W4PJ469) - because it doesn't have the unnecessary huge capacitors and an external audio jack, but for some reason this board could not be made to work the same way as the [M28](https://www.amazon.com/dp/B07W7YCFS1).
+I tried a lower-profile Bluetooth Audio board from the same manufacturer - [M18](https://www.amazon.com/dp/B07W4PJ469) - because it doesn't have the large capacitors and an external audio jack, but for some reason this board could not be made to work the same way as the [M28](https://www.amazon.com/dp/B07W7YCFS1).
 
 It failed to advertise an audio device on many attempts, and during one of the attempts it did expose the audio device, but then did not send the audio signal through the Left audio pin.
 
 ## Design Goals
 
-The physical footrint of the embedded oscilloscope should be reduced in *depth* (keeping width and length the same) and the overall module should be made more reliable.
+The physical footrint of the embedded oscilloscope should be reduced in *depth* (keeping width and length the same) and the overall module should be made more reliable:
 
-Look into the following:
 * Can another reliable Bluetooth Audio board be found that doesn't have large components like capacitors and an audio jack?
 * Perhaps M18 does work, but I used it incorrectly (the audio output is not the same as M28 because it's amplified, or conversely, not amplified?)
 * Can the LiPo Backpack components be directly integrated onto the oscilloscope board, allowing us to stop depending on this module which increases the overall footprint?
