@@ -1,39 +1,234 @@
-
-(footprint WL-SMCW_0805 (layer F.Cu) (tedit 6938E72F)
-  (descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)")
-  (attr smd)
-  (fp_text reference REF** (at 0.0 -1.6064 0) (layer F.SilkS)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (fp_text value WL-SMCW_0805 (at 0.0 1.5936 0) (layer F.Fab)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -1.05 0.0) (size 1.1 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 1.05 0.0) (size 1.1 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 1.0 -0.625) (end 1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 0.625) (end -1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 -0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 0.625) (end 1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.213 -0.725) (end 0.219 -0.725) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.206 0.725) (end 0.212 0.725) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.11 -0.14) (end 0.11 0.15) (layer F.SilkS) (width 0.1))
-  (fp_line (start 0.11 0.15) (end -0.13 0.0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -0.13 0.0) (end 0.11 -0.14) (layer F.SilkS) (width 0.1))
-  (fp_line (start 0.11 -0.14) (end 0.11 0.15) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.11 0.15) (end -0.13 0.0) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.13 0.0) (end 0.11 -0.14) (layer F.Fab) (width 0.1))
-  (fp_text user "+" (at 1.9 0.3) (layer F.SilkS)
-    (effects (font (size 0.48 0.48) (thickness 0.15)))
-  )
-  (fp_text user "+" (at 1.9 0.3) (layer F.Fab)
-    (effects (font (size 0.48 0.48) (thickness 0.15)))
-  )
-  (fp_poly
-    (pts
-      (xy -1.8 -0.925)
-      (xy 1.8 -0.925)
-      (xy 1.8 0.925)
-      (xy -1.8 0.925)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "150080SS75000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.6064 0)
+		(layer "F.SilkS")
+		(uuid "1df9bb25-44fa-4409-928d-20d8cdcf3764")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SMCW_0805"
+		(at 0 1.5936 0)
+		(layer "F.Fab")
+		(uuid "846925df-bcaf-4610-9098-a6a69a28ff64")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e578099-791d-4a42-bd7a-1ba4f591ecc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "612744bf-b0d8-4646-9a18-bbdb6a70c11a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.213 -0.725)
+		(end 0.219 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a255f884-8597-4cae-82be-bb121093ba29")
+	)
+	(fp_line
+		(start -0.206 0.725)
+		(end 0.212 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6b485af-4965-48ac-99b5-df4cccbbb6ed")
+	)
+	(fp_line
+		(start -0.13 0)
+		(end 0.11 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1161bbe-ca66-4ecf-a374-6597ac5566be")
+	)
+	(fp_line
+		(start 0.11 -0.14)
+		(end 0.11 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7724add-f266-496f-a38e-aa201cacd0e1")
+	)
+	(fp_line
+		(start 0.11 0.15)
+		(end -0.13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1165373-f82d-4151-9a0b-9be428d6066b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 -0.925) (xy 1.8 -0.925) (xy 1.8 0.925) (xy -1.8 0.925)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "a8abd001-4a2b-458a-a4ce-aca2fbf0fc25")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da79f069-7b48-431c-86a3-e2546622cbc5")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca976b0d-b1cb-4aff-9aa9-b3d27e6b90e3")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccb4e72a-521e-4d92-a884-1469971e341a")
+	)
+	(fp_line
+		(start -0.13 0)
+		(end 0.11 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ec5b934-f4c1-4e06-a481-de48cd23851b")
+	)
+	(fp_line
+		(start 0.11 -0.14)
+		(end 0.11 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0b54356-4467-40d1-befb-fbda8d0c5d20")
+	)
+	(fp_line
+		(start 0.11 0.15)
+		(end -0.13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d222c7a-98e2-4e8a-b19d-a5956600f596")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1d5b9b0-ae42-42da-aad1-26e4a4ff36ea")
+	)
+	(fp_text user "+"
+		(at 1.9 0.3 0)
+		(layer "F.SilkS")
+		(uuid "83a6688d-5b21-4f53-84f0-f48d7f9fdf2a")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.9 0.3 0)
+		(layer "F.Fab")
+		(uuid "e32aa7ad-db37-43e3-bcb1-edd8c32c8dcf")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1.1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5c08fa2b-905a-4eca-9ac1-ac34b9871bb8")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1.1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "149587f4-8d13-439f-b3f3-375665d2656c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/dependencies/ledred/150080SS75000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

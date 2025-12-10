@@ -1,25 +1,134 @@
-
-(footprint C0805 (layer F.Cu) (tedit 6938FFD3)
-  (descr "<b>0805<b><p>")
-  (attr smd)
-  (fp_text reference REF** (at 1.5893465 0.3178725 900) (layer F.SilkS)
-    (effects (font (size 0.700813385827 0.700813385827) (thickness 0.15)))
-  )
-  (fp_text value C0805 (at -1.8420455 -0.3175975 900) (layer F.Fab)
-    (effects (font (size 0.500148818898 0.500148818898) (thickness 0.15)))
-  )
-  (pad 1 smd roundrect (roundrect_rratio 0.125) (at 0.0 -0.889) (size 1.397 1.016) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd roundrect (roundrect_rratio 0.125) (at 0.0 0.889) (size 1.397 1.016) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.889 1.651) (end -0.889 1.651) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.889 1.651) (end -0.889 -1.651) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.889 -1.651) (end 0.889 -1.651) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.889 -1.651) (end 0.889 1.651) (layer F.SilkS) (width 0.127))
-  (fp_poly
-    (pts
-      (xy 0.7613295 -1.4611705)
-      (xy 0.7613295 1.4626395)
-      (xy -0.7641395 1.4626395)
-      (xy -0.7641395 -1.4611705)
-    ) (layer F.CrtYd) (width 0.01)
-  )
+(footprint "CC0805MKX5R5BB226"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>0805<b><p>")
+	(property "Reference" "REF**"
+		(at 1.589347 0.317873 180)
+		(layer "F.SilkS")
+		(uuid "d0a278a0-22ed-4831-977b-e790b25cae3d")
+		(effects
+			(font
+				(size 0.700813 0.700813)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0805"
+		(at -1.842046 -0.317598 180)
+		(layer "F.Fab")
+		(uuid "13c27ccf-ba67-4be3-a3a7-2bb26ed4060c")
+		(effects
+			(font
+				(size 0.500149 0.500149)
+				(thickness 0.125037)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f98648a8-1807-4eaa-b76f-a0c485225759")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c6f5fe3-3d07-4f0c-9a9f-6ec40130c15e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.889 -1.651)
+		(end 0.889 -1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f8496e-7e18-4f04-91e8-2cf1235a7133")
+	)
+	(fp_line
+		(start -0.889 1.651)
+		(end -0.889 -1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c9bdf90-afba-4299-a915-e7158ade0a48")
+	)
+	(fp_line
+		(start 0.889 -1.651)
+		(end 0.889 1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdb4cbc4-eff7-4e25-bdba-daafa3d3a0e6")
+	)
+	(fp_line
+		(start 0.889 1.651)
+		(end -0.889 1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39c9b2d8-7fad-4027-b22f-312f69ffc3b3")
+	)
+	(fp_poly
+		(pts
+			(xy 0.76133 -1.461171) (xy 0.76133 1.46264) (xy -0.76414 1.46264) (xy -0.76414 -1.461171)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "16a5825d-77f9-49e9-8c37-0bec68e439c7")
+	)
+	(pad "1" smd roundrect
+		(at 0 -0.889)
+		(size 1.397 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "893ad5d9-aab8-46b0-a22d-ab2fc3455916")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.889)
+		(size 1.397 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "14fef91e-6678-4501-ac6c-657d08e75b50")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/dependencies/capacitor22uF/CC0805MKX5R5BB226.step"
+		(offset
+			(xyz 0.72 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

@@ -1,0 +1,50 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CERAMIC-22UF-6.3V-20_-X5R_0805_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at -3.81397 1.27132 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CERAMIC-22UF-6.3V-20_-X5R_0805_" (id 1) (at -3.81449 -2.54299 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CERAMIC-22UF-6.3V-20_-X5R_0805_:C0805" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "CC0805MKX5R5BB226" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "22uf" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CERAMIC-22UF-6.3V-20_-X5R_0805__0_0"
+      (polyline
+        (pts (xy -0.635 -1.016) (xy -0.635 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 1.016) (xy 0.635 -1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -0.635 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 0.0) (xy 1.27 0.0)) (stroke (width 0.1524))
+      )
+      (pin passive line (at -3.81 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 3.81 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
