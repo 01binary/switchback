@@ -73,7 +73,7 @@ The Key electrodes map onto MIDI brightness value as follows:
 
 ### Controller
 
-The [ESP32-S3-DEVKITC-1-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8/15199021) was chosen as the controller because it can function like a Bluetooth MIDI device. A computer running sequencer software like Ableton Live can connect to this embedded MIDI controller, and pressing keys will then play notes in the program.
+The [ESP32-S3-DEVKITC-1-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8/15199021) was chosen as the controller because it can function like a Bluetooth MIDI device, and it's also used for the embedded oscilloscope board which is also a part of this project.
 
 ### Capacitive Touch
 
@@ -83,11 +83,13 @@ The [TCA9548APWR](https://www.digikey.com/en/products/detail/texas-instruments/t
 
 ### Power
 
-A USB-C receptacle is used to program the board, with [AMS1117-3.3](https://www.digikey.com/en/products/detail/umw/ams1117-3-3/17635254) buck converter initially chosen to convert from USB `5V` to `3.3V` needed to power ESP32.
+A [USB-C](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/CX90B1-24P/8769505) receptacle is used to program the board, providing power during the programming process.
 
-The circuitry from [Adafruit LiPo backpack](https://www.adafruit.com/product/2124) should be integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes a **battery connector** and a **sliding power switch**.
+The circuitry from [Adafruit LiPo backpack](https://www.adafruit.com/product/2124) is integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes a **battery connector** and a **sliding power switch**. If the battery is connected while power is provided to the USB-C connector, this also charges the battery.
 
-The power switch will be **external** for this project - but a `JST-XH` 2-pin locking connector will be needed on the board to connect this external switch in a modular fashion.
+The power switch is **external** for this project - but a `JST-XH` 2-pin locking connector will be needed on the board to connect this external switch in a modular fashion.
+
+The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/product/2745) is integrated directly onto the board to convert the battery voltage to `3.3V` that feeds Teensy and all other components.
 
 ## Schematic
 
