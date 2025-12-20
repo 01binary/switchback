@@ -85,9 +85,9 @@ The [TCA9548APWR](https://www.digikey.com/en/products/detail/texas-instruments/t
 
 A USB-C receptacle is used to program the board, with [AMS1117-3.3](https://www.digikey.com/en/products/detail/umw/ams1117-3-3/17635254) buck converter initially chosen to convert from USB `5V` to `3.3V` needed to power ESP32.
 
-The circuitry from [LiPo backpack](https://www.adafruit.com/product/2124) from Adafruit should be integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes a **battery connector** and a **sliding power switch**.
+The circuitry from [Adafruit LiPo backpack](https://www.adafruit.com/product/2124) should be integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes a **battery connector** and a **sliding power switch**.
 
-The power switch will be **external* for this project - but a `JST-XH` 2-pin locking connector will be needed on the board to connect this external switch in a modular fashion.
+The power switch will be **external** for this project - but a `JST-XH` 2-pin locking connector will be needed on the board to connect this external switch in a modular fashion.
 
 ## Schematic
 
