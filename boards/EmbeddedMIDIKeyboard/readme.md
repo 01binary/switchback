@@ -4,7 +4,7 @@ A PCB embedded at the bottom of a custom guitar, with capacitive touch electrode
 
 ![embedded keyboard](./visualization.png)
 
-Each of the 13 keys is further divided into electrodes, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`), which would typically be linked to opening/closing a filter on the synthesizer being controlled by this MIDI keyboard.
+Each of the 13 keys is further divided into 24 electrodes and functions like a 1D slider, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`), which would typically be linked to opening/closing a filter on the synthesizer being controlled by this MIDI keyboard.
 
 ![mapping](./mapping.png)
 
@@ -47,27 +47,9 @@ to my fingerHp when the key is touched (see Mapping below)
     * And Pitch is `C2`
     * And Velocity is always `0` (minimum velocity)
 
-The Key electrodes map onto MIDI brightness value as follows:
-
-|Electrode|CC Value|
-|-|-|
-|`0`|`0`|
-|`1`|`11`|
-|`2`|`21`|
-|`3`|`32`|
-|`4`|`42`|
-|`5`|`53`|
-|`6`|`64`|
-|`7`|`74`|
-|`8`|`85`|
-|`9`|`95`|
-|`10`|`106`|
-|`11`|`116`|
-|`12`|`127`|
-
 ## Testing
 
-[MIDI Monitor](hWps://www.snoize.com/MIDIMonitor/) can be used for testing this device once assembled to ensure it adheres to above requirements.
+[MIDI Monitor](https://www.snoize.com/MIDIMonitor/) can be used for testing this device once assembled to ensure it adheres to above requirements.
 
 ## Architecture
 
@@ -77,9 +59,20 @@ The [ESP32-S3-DEVKITC-1-N8](https://www.digikey.com/en/products/detail/espressif
 
 ### Capacitive Touch
 
-The [MPR121WR2](https://www.digikey.com/en/products/detail/nxp-usa-inc/mpr121qr2/2186527) was chosen as a capacitive touch sensor because it's simple to integrate onto the I2C bus.
+The [MPR121QR2](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPR121QR2/2186527) capacitive touch controller was selected due to its simplicity, reliability, and native I²C interface. Each MPR121 provides **12 capacitive electrodes**, and multiple devices can coexist on the same I²C bus using its **four selectable I²C addresses (0x5A–0x5D)**.
 
-The [TCA9548APWR](https://www.digikey.com/en/products/detail/texas-instruments/tca9548apwr/3615458) was chosen as the I2C bus multiplexer, because of the sheer number of capacitive touch electrodes in this project (`13` keys x `13` steps per key = `169` total electrodes). Two of these units can handle up to `180` electrodes in total.
+This project requires **13 keys × 24 electrodes per key = 312 total electrodes**, corresponding to **26 MPR121 devices** (2 per key).
+
+To minimize device count, routing complexity, and I²C bus capacitance, the design shall use a **single [TCA9548A](https://www.digikey.com/en/products/detail/texas-instruments/tca9548apwr/3615458) I²C multiplexer**. Each TCA9548A downstream channel may host **up to four MPR121 devices**, differentiated by their I²C addresses. With this approach, all 26 MPR121 devices can be supported using **7 of the 8 available TCA9548A channels**, leaving one channel unused for expansion or debugging.
+
+This architecture is preferred over a “one-sensor-per-mux-channel” approach because it:
+
+- Minimizes the number of multiplexers  
+- Reduces PCB routing congestion  
+- Keeps I²C timing deterministic  
+- Simplifies firmware scanning (each sensor is read once per scan cycle)
+
+Each key shall be treated logically as a **1D capacitive slider**, composed of **24 contiguous electrodes**, with position derived in firmware from the combined electrode state.
 
 ### Power
 
