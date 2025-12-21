@@ -94,6 +94,8 @@ The freelancer is **not** responsible for:
 
 The [ESP32-S3-DEVKITC-1-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8/15199021) controller was chosen because it can function like a Bluetooth MIDI device, and it's also used for the embedded oscilloscope board in the same project.
 
+The ESP32-S3 shall expose all required GPIO, I²C, UART, boot, and reset signals on the PCB without relying on bodge wires.
+
 ### Capacitive Touch
 
 The [MPR121QR2](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPR121QR2/2186527) capacitive touch controller was selected due to its simplicity, reliability, and native I²C interface. Each MPR121 provides **12 capacitive electrodes**, and multiple devices can coexist on the same I²C bus using its **four selectable I²C addresses (0x5A–0x5D)**.
@@ -111,17 +113,25 @@ This architecture is preferred over a "one-sensor-per-mux-channel" approach beca
 
 Each key shall be treated logically as a **1D capacitive slider**, composed of **24 contiguous electrodes**, with position derived in firmware from the combined electrode state.
 
+#### Layout
+
+- Board layout, hole placement, and electrode copper areas will be provided in DWG/SVG format
+- Each electrode shall be routed as a dedicated copper area (no shared pads)
+- No electrode shall be stitched together electrically
+- Guard rings, ground pours, or shielding may be added only if they do not reduce sensitivity
+- Electrode routing shall prioritize uniform length and spacing within each key
+
 ### Power
 
-The power circuitry is identical to the embedded oscilloscope board which is also a part of this project.
+This section is a **direct reuse** of a previously validated "Embedded Oscilliscope" design and should not be functionally modified unless required for layout reasons.
 
-A [USB-C](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/CX90B1-24P/8769505) receptacle is used to program the board, providing power during the programming process. Two [TS-1064S-A1B2-D4](https://www.lcsc.com/product-detail/C498294.html?s_z=n_C498294) switches (boot and reset) are also used for manual programming. A [DMN3135LVT-7](https://www.digikey.com/en/products/detail/diodes-incorporated/dmn3135lvt-7/2890874) MOSTFET assists with automatic programming from Arduino IDE, by "pressing" boot and reset buttons automatically at the right time.
+A [USB-C](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/CX90B1-24P/8769505) receptacle is used to program the board, providing power during the programming process. Two [TS-1064S-A1B2-D4](https://www.lcsc.com/product-detail/C498294.html?s_z=n_C498294) switches (boot and reset) are used for manual programming. A [DMN3135LVT-7](https://www.digikey.com/en/products/detail/diodes-incorporated/dmn3135lvt-7/2890874) MOSTFET enables automatic programming from Arduino IDE.
 
 The circuitry from [Adafruit LiPo backpack](https://www.adafruit.com/product/2124) is integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes [S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655) **battery connector** and a **sliding power switch**. If the battery is connected while power is provided to the USB-C connector, this also charges the battery.
 
 The power switch (connected to LiPo Battery Backpack circuit) is **external** for this project - but [S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655) connector will be needed on the board to connect this external switch in a modular fashion. This is exactly the same connector as the one used for the battery.
 
-The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/product/2745) is integrated directly onto the board to convert the battery voltage to `3.3V` that feeds Teensy and all other components.
+The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/product/2745) is integrated directly onto the board to convert the battery voltage to `3.3V` required for the controller and all other components.
 
 ## Components
 
