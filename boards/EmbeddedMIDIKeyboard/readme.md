@@ -2,6 +2,8 @@
 
 A PCB embedded at the bottom of a custom guitar, with capacitive touch electrodes that function like keyboard keys. Touching keys sends MIDI messages over Bluetooth.
 
+> Under construction! More CAD work is required to export board shape outline with holes, as well as precise electrode placement layout.
+
 ![embedded keyboard](./visualization.png)
 
 Each of the `13` keys is divided into `24` electrodes and functions like a capacitive touch slider, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`).
