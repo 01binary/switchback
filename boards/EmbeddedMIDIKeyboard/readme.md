@@ -10,40 +10,79 @@ Each of the `13` keys is divided into `24` electrodes and functions like a capac
 
 ## Overview
 
-* All MIDI messages are sent on channel `1`
-* Touching any electrode of a key will send a MIDI `Note On` message with maximum velocity and the note value set according to the key index
-* When touch is no longer registered on a key, the controller will send a MIDI `Note Off` message with minimum velocity
-* Only one note and one electrode can be active at a time (*monophonic* behavior). If several are registering touch, the software will try to find the geometric center of all the electrodes being touched and consider the electrode that intersects the center as the active one.
-* Depending on which key electrode was touched (`0` through `23`), the controller will send a `Control Change` message with controller `74` (or `4AH`, mapped to *brightness* in MIDI specification) and value equal to the index of the key electrode mapped onto `0` through `127` range.
++ All MIDI messages are sent on channel `1`
++ Touching any electrode of a key will send a MIDI `Note On` message with maximum velocity and the note value set according to the key index
++ When touch is no longer registered on a key, the controller will send a MIDI `Note Off` message with minimum velocity
++ The system is strictly **monophonic**:
+  - At most one key may be active at any time
+  - At most one electrode position is considered active at any time
++ Depending on which key electrode was touched (`0` through `23`), the controller will send a `Control Change` message with controller `74` (or `4AH`, mapped to *brightness* in MIDI specification) and value equal to the index of the key electrode mapped onto `0` through `127` range.
+
+## Scope
+
+The freelancer is responsible for:
+
++ Schematic design
++ PCB layout for a custom-shaped board
++ Component selection (*suggested* components are listed at the end of this document)
++ Manufacturing-ready files (Gerbers, drill, pick-and-place, BOM)
+
+The freelancer is **not** responsible for:
+
++ Firmware development
++ Mechanical CAD of the guitar body
++ Board outline and mounting hole placement
 
 ## Requirements
 
-+ Given my finger is over `C1` key
-+ When I touch any of the electrodes within this key
-  - Then I get **MIDI Control Change** message on channel `1`
-    * And Controller is `4AH` (`74` decimal) labeled "Brightness" in MIDI manual
-    * And Control Value is between `0` and `127` depending the closest electrode to my fingerHp when the key is touched (see Mapping below)
-  - Then I get **MIDI Note On** message on channel `1`
-    * And Pitch is `C1`
-    * And Velocity is always `127` (maximum velocity)
-+ When I touch any of the electrodes within `C2` key while still holding down `C1` key
-  - Then I get **MIDI Control Change** message on channel `1`
-    * And Controller is `4AH` (`74` decimal) labeled "Brightness" in MIDI manual
-    * And Control Value is between `0` and `127` depending the closest electrode
-to my fingerHp when the key is touched (see Mapping below) o ThenIgetMIDINoteOffmessageonChannel1
-    * And Pitch is `C1`
-    * And Velocity is always `0` (minimum velocity)
-  - Then I get **MIDI Note On** message on channel `1`
-    * And Pitch is `C2`
-    * And Velocity is always `127` (maximum velocity)
-+ When I release the key
-  - Then I get MIDI Control Change message on channel `1`
-    * And Controller is `4AH` (`74` decimal) labeled "Brightness" in MIDI manual
-    * And Control Value is between `0` and `127` depending the closest electrode
-to my fingerHp when the key is touched (see Mapping below)
-  - Then I get **MIDI Note Off** message on channel `1`
-    * And Pitch is `C2`
-    * And Velocity is always `0` (minimum velocity)
+### General
+- All MIDI messages are sent on channel `1`
+- MIDI Control Change `CC74` (`0x4A`, Brightness) is always sent when a key is touched or released
+- Control Change value is derived from the closest electrode index (`0–23`) mapped linearly to `0–127`
+
+### Touch behavior
+
+#### Case 1: Touch a key when no other key is active
+
++ Given my finger is over the `C1` key
++ When I touch any electrode within this key
+  - Then the controller sends **MIDI Control Change**
+    * Channel: `1`
+    * Controller: `CC74`
+    * Value: `0–127` (mapped from electrode index)
+  - Then the controller sends **MIDI Note On**
+    * Channel: `1`
+    * Pitch: `C1`
+    * Velocity: `127`
+
+#### Case 2: Move to another key while holding a key
+
++ Given I am holding the `C1` key
++ When I touch any electrode within the `C2` key
+  - Then the controller sends **MIDI Note Off**
+    * Channel: `1`
+    * Pitch: `C1`
+    * Velocity: `0`
+  - Then the controller sends **MIDI Control Change**
+    * Channel: `1`
+    * Controller: `CC74`
+    * Value: `0–127` (mapped from electrode index)
+  - Then the controller sends **MIDI Note On**
+    * Channel: `1`
+    * Pitch: `C2`
+    * Velocity: `127`
+
+#### Case 3: Release the active key
+
++ When I release the active key
+  - Then the controller sends **MIDI Control Change**
+    * Channel: `1`
+    * Controller: `CC74`
+    * Value: `0–127`
+  - Then the controller sends **MIDI Note Off**
+    * Channel: `1`
+    * Pitch: last active pitch
+    * Velocity: `0`
 
 ## Testing
 
