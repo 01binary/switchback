@@ -119,7 +119,7 @@ A [USB-C](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/CX90
 
 The circuitry from [Adafruit LiPo backpack](https://www.adafruit.com/product/2124) is integrated directly onto the board to provide power from a LiPo battery after the device is programmed. This includes [S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655) **battery connector** and a **sliding power switch**. If the battery is connected while power is provided to the USB-C connector, this also charges the battery.
 
-The power switch is **external** for this project - but [S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655) connector will be needed on the board to connect this external switch in a modular fashion. This is exactly the same connector as the one used for the battery.
+The power switch (connected to LiPo Battery Backpack circuit) is **external** for this project - but [S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655) connector will be needed on the board to connect this external switch in a modular fashion. This is exactly the same connector as the one used for the battery.
 
 The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/product/2745) is integrated directly onto the board to convert the battery voltage to `3.3V` that feeds Teensy and all other components.
 
