@@ -2,8 +2,6 @@
 
 A PCB embedded at the bottom of a custom guitar, with capacitive touch electrodes that function like keyboard keys. Touching keys sends MIDI messages over Bluetooth.
 
-> Under construction! More CAD work is required to export board shape outline with holes, as well as precise electrode placement layout.
-
 ![embedded keyboard](./visualization.png)
 
 Each of the `13` keys is divided into `24` electrodes and functions like a capacitive touch slider, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`).
@@ -19,6 +17,10 @@ Each of the `13` keys is divided into `24` electrodes and functions like a capac
   - At most one key may be active at any time
   - At most one electrode position is considered active at any time
 + Depending on which key electrode was touched (`0` through `23`), the controller will send a `Control Change` message with controller `74` (or `4AH`, mapped to *brightness* in MIDI specification) and value equal to the index of the key electrode mapped onto `0` through `127` range.
+
+The board outline is provided as an `.svg` export. This includes the shape of the board, hole placement, and the shape of the electrodes:
+
+![board outline](./board-outline.png)
 
 ## Scope
 
