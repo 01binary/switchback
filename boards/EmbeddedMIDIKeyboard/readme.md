@@ -8,6 +8,8 @@ Each of the `13` keys is divided into `24` electrodes and functions like a capac
 
 ![mapping](./mapping.png)
 
+> Note that the keyboard is mounted "upside down" for easy access when wearing the guitar.
+
 ## Overview
 
 + All MIDI messages are sent on channel `1`
