@@ -22,6 +22,8 @@ The board outline is provided as an `.svg` export. This includes the shape of th
 
 ![board outline](./board-outline.png)
 
+The capacitive touch electrodes must be placed on one side of the board, and all components on the other.
+
 ## Scope
 
 The freelancer is responsible for:
