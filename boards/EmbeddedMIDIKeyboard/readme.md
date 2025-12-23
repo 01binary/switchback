@@ -149,7 +149,7 @@ The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/pro
 |[RC0805FR-072K49L](https://www.digikey.com/en/products/detail/yageo/RC0805FR-072K49L/727695)|2.5K Resistor
 |[RC0402FR-075K1L](https://www.digikey.com/en/products/detail/yageo/rc0402fr-075k1l/726624)|5.1K Resistor
 |[AF0805FR-0710KL](https://www.digikey.it/en/products/detail/yageo/AF0805FR-0710KL/5901208)|10K Resistor
-||75K Resistor
+|[RT0805FRE0775KL](https://www.digikey.com/en/products/detail/yageo/RT0805FRE0775KL/1079396)|75K Resistor
 |[RC0805FR-07100KL](https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544)|100K Resistor
 |[RTT01513JTH](https://www.lcsc.com/product-detail/C102736.html?s_z=n_C102736)|51K Resistor
 |[S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655)|LiPo Battery Connector, Power Switch Connector
