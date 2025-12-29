@@ -121,6 +121,8 @@ This architecture is preferred over a "one-sensor-per-mux-channel" approach beca
 
 Each key shall be treated logically as a **1D capacitive slider**, composed of **24 contiguous electrodes**, with position derived in firmware from the combined electrode state.
 
+> Note: each MPR121 device has an IRQ (interrupt) pin pulled high when touch is registered. The same four MPR121 devices that share a single mux channel also share a single interrupt.
+
 #### Layout
 
 - Board layout, hole placement, and electrode copper areas will be provided in DWG/SVG format
