@@ -145,25 +145,25 @@ The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/pro
 
 |Component|Description|
 |-|-|
-|[ESP32-S3-DEVKITC-1-N8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N8/15199021)|Controller
+|[ESP32-WROOM-32E-N4](https://www.lcsc.com/product-detail/C701341.html)|Controller|
 |[MCP73831T-2ACI/OT](https://www.digikey.com/en/products/detail/microchip-technology/mcp73831t-2aci-ot/964301)|Battery Charger
 |[150080SS75000](https://www.digikey.com/en/products/detail/w-rth-elektronik/150080SS75000/4489919)|Red LED
 |[150080GS75000](https://www.digikey.com/en/products/detail/w-rth-elektronik/150080GS75000/4489913)|Green LED
 |[RE0805FRE071KL](https://www.digikey.com.au/en/products/detail/yageo/RE0805FRE071KL/5923534)|1K Resistor
 |[RC0805FR-072K49L](https://www.digikey.com/en/products/detail/yageo/RC0805FR-072K49L/727695)|2.5K Resistor
-|[RC0402FR-075K1L](https://www.digikey.com/en/products/detail/yageo/rc0402fr-075k1l/726624)|5.1K Resistor
+|[0402WGF5101TCE](https://www.lcsc.com/product-detail/C25905.html)|5.1K Resistor
 |[AF0805FR-0710KL](https://www.digikey.it/en/products/detail/yageo/AF0805FR-0710KL/5901208)|10K Resistor
 |[RT0805FRE0775KL](https://www.digikey.com/en/products/detail/yageo/RT0805FRE0775KL/1079396)|75K Resistor
 |[RC0805FR-07100KL](https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544)|100K Resistor
-|[RTT01513JTH](https://www.lcsc.com/product-detail/C102736.html?s_z=n_C102736)|51K Resistor
+|[RTT01513JTH](https://www.lcsc.com/product-detail/C102736.html)|51K Resistor
 |[S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655)|LiPo Battery Connector, Power Switch Connector
 |[CC0805KKX5R5BB106](https://www.digikey.com/en/products/detail/yageo/cc0805kkx5r5bb106/2833624)|10uF Capacitor
 |[CC0805MKX5R5BB226](https://www.digikey.com/en/products/detail/yageo/CC0805MKX5R5BB226/2833629)|22uF Capacitor
 |[CL03A104KP3NNNC](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl03a104kp3nnnc/3886773)|100nF Capacitor
 |[LM3671MFX-3.3/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM3671MFX-3.3-NOPB/6597333)|3.3V DC-DC Buck Converter
 |[NRH2412T2R2MNGH](https://www.digikey.com/en/products/detail/taiyo-yuden/NRH2412T2R2MNGH/4157831)|2.2uH Inductor
-|[TS-1064S-A1B2-D4](https://www.lcsc.com/product-detail/C498294.html?s_z=n_C498294)|Boot and Reset Switches
-|[TYPE-C-31-M-12](https://www.lcsc.com/product-detail/C165948.html)|USB-C Receptacle
+|[TS-1064S-A1B2-D4](https://www.lcsc.com/product-detail/C498294.html)|Boot and Reset Switches
+|[USB-C31-S-RA-CS2-SMT-BK-T/R](https://www.digikey.com/en/products/detail/adam-tech/USB-C31-S-RA-CS2-SMT-BK-T-R/9833235)|USB-C Receptacle
 |[DMN3135LVT-7](https://www.digikey.com/en/products/detail/diodes-incorporated/dmn3135lvt-7/2890874)|ESP32 Auto-program MOSFET
 |[CH340C](https://www.lcsc.com/product-detail/C84681.html)|USB to Serial Converter
 |[MPR121QR2](https://www.digikey.com/en/products/detail/nxp-usa-inc/mpr121qr2/2186527)|Capacitive Touch Sensor

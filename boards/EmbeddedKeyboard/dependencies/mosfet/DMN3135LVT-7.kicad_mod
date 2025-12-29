@@ -1,0 +1,463 @@
+(footprint "SOT95P280X100-6N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DMN3135LVT-7-")
+	(tags "Transistor")
+	(property "Reference" "Q1"
+		(at 0.15 -2.26 0)
+		(layer "F.SilkS")
+		(uuid "a0ec9029-8284-412e-9f00-14c5977da104")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DMN3135LVT-7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b931e9d6-ae7c-4776-8206-728c9e92bf48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3135LVT.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1251f3f0-da65-4db1-a9ab-3f18b1ceffa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mosfet Array 2 N-Channel (Dual) 30V 3.5A 840mW Surface Mount TSOT-26"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e4663cf-0ec6-4cb0-a980-492d320d99c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "230383f8-9db5-468e-9121-692779417537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77e5b9ed-680c-47d0-bcb5-93657344ba4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DMN3135LVT-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9aa7eb1-c612-4490-bd9a-fa7b5a21d6b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-DMN3135LVT-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d136990d-569b-4a54-a2e9-9a955fb04e48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN3135LVT-7?qs=gfe7vQ8txpXcd87ExB4f9Q%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "593ef54f-d969-48e3-88f3-0461b3be26ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "DMN3135LVT-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2db63b65-fd6e-4913-b7c9-ed811d3667de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmn3135lvt-7/diodes-incorporated?utm_currency=USD&region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "301dbbb4-9c6f-4a68-ba88-8921093d1277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part no" "C155326 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1e6d372-1a59-4bc5-9634-c1cfba19e9ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c66e429-4ee6-411c-a9b1-528e2aa021a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e372f5-c00b-428d-bce9-ab0df04f9821")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f0aaeae-5e8e-4dc5-acce-3d51f1128b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "419c6b60-c548-4e3d-b92b-11429efc4e3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6163508c-29ae-44e5-b407-526eaabd48f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20055d62-105d-45c9-8498-43c84e3d1921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "924cf7d9-0947-4e2f-a77a-70c9089ef971")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Number" "C155326 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c89bbc2-6448-4925-9ee5-c2e880fc2f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.825 -1.575)
+		(end -0.775 -1.575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11276b7b-f98f-47db-924b-61d76a37ebdd")
+	)
+	(fp_line
+		(start -0.425 -1.45)
+		(end 0.425 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f462feb-d267-4570-94ae-bca8bb5480c7")
+	)
+	(fp_line
+		(start -0.425 1.45)
+		(end -0.425 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "571797e7-2cdd-45fe-a2c5-12e63d1e0ee5")
+	)
+	(fp_line
+		(start 0.425 -1.45)
+		(end 0.425 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c147337-fdff-4a3e-91a8-696b610f3c83")
+	)
+	(fp_line
+		(start 0.425 1.45)
+		(end -0.425 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94b75973-91ac-40d7-b6e1-ecf14c25d660")
+	)
+	(fp_line
+		(start -2.075 -1.7)
+		(end 2.075 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fd7b432-18c0-4417-9521-c534b15d244a")
+	)
+	(fp_line
+		(start -2.075 1.7)
+		(end -2.075 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92f3b3be-608c-4589-8c1d-3982b72972a5")
+	)
+	(fp_line
+		(start 2.075 -1.7)
+		(end 2.075 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbc31611-7d18-4773-bcfb-ebf68f845577")
+	)
+	(fp_line
+		(start 2.075 1.7)
+		(end -2.075 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d07ceda7-7184-488b-8238-a4f644413bc2")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1581c81-c0ec-44d1-a8fc-23ca5e2b6b37")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "803d7246-0d97-4c3f-bf48-872089f2e56e")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "179ec132-a823-4522-8372-e3b06c6440c7")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4800e29a-fe16-41ce-8322-18d67a7f8738")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9efcfda-b4ac-4ce8-8c37-41a49e975750")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c2611970-95b3-4ee7-9ba2-e13100edd97f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 -0.95 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f212afe0-a7b9-4590-9ed3-357a0e26dee8")
+	)
+	(pad "2" smd rect
+		(at -1.3 0 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44a95b93-9eef-4902-9fe5-9940b46bf806")
+	)
+	(pad "3" smd rect
+		(at -1.3 0.95 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7c5cf1d-492b-496e-b2f8-376c8f04b8bb")
+	)
+	(pad "4" smd rect
+		(at 1.3 0.95 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f570301-9010-4e25-a1bf-625f9b294966")
+	)
+	(pad "5" smd rect
+		(at 1.3 0 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74e558b8-a996-4ff6-9f1f-60368ea2c9a2")
+	)
+	(pad "6" smd rect
+		(at 1.3 -0.95 90)
+		(size 0.55 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b12765-f83c-4ad3-b86a-9e431b6cf23a")
+	)
+	(embedded_fonts no)
+	(model "DMN3135LVT-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
