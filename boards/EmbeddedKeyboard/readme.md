@@ -4,7 +4,7 @@ A PCB embedded at the bottom of a custom guitar, with capacitive touch electrode
 
 ![embedded keyboard](./visualization.png)
 
-Each of the `13` keys is divided into `24` electrodes and functions like a capacitive touch slider, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`).
+Each of the `13` keys is divided into `12` electrodes and functions like a capacitive touch slider, allowing the user to slide their finger up and down on each key to control MIDI "brightness" parameter (`CC74`).
 
 ![mapping](./mapping.png)
 
@@ -26,27 +26,12 @@ The board outline is provided as an `.svg` export. This includes the shape of th
 
 The capacitive touch electrodes must be placed on one side of the board, and all components on the other.
 
-## Scope
-
-The freelancer is responsible for:
-
-+ Schematic design
-+ PCB layout for a custom-shaped board
-+ Component selection (*suggested* components are listed at the end of this document)
-+ Manufacturing-ready files (Gerbers, drill, pick-and-place, BOM)
-
-The freelancer is **not** responsible for:
-
-+ Firmware development
-+ Mechanical CAD of the guitar body
-+ Board outline and mounting hole placement
-
 ## Requirements
 
 ### General
 - All MIDI messages are sent on channel `1`
 - MIDI Control Change `CC74` (`0x4A`, Brightness) is always sent when a key is touched or released
-- Control Change value is derived from the closest electrode index (`0–23`) mapped linearly to `0–127`
+- Control Change value is derived from the closest electrode index (`0–11`) mapped linearly to `0–127`
 
 ### Touch behavior
 
@@ -108,9 +93,9 @@ The ESP32-S3 shall expose all required GPIO, I²C, UART, boot, and reset signals
 
 The [MPR121QR2](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPR121QR2/2186527) capacitive touch controller was selected due to its simplicity, reliability, and native I²C interface. Each MPR121 provides **12 capacitive electrodes**, and multiple devices can coexist on the same I²C bus using its **four selectable I²C addresses (0x5A–0x5D)**.
 
-This project requires **13 keys × 24 electrodes per key = 312 total electrodes**, corresponding to **26 MPR121 devices** (2 per key).
+This project requires **13 keys × 12 electrodes per key = 156 total electrodes**, corresponding to **13 MPR121 devices** (1 per key).
 
-To minimize device count, routing complexity, and I²C bus capacitance, the design shall use a **single [TCA9548A](https://www.digikey.com/en/products/detail/texas-instruments/tca9548apwr/3615458) I²C multiplexer**. Each TCA9548A downstream channel may host **up to four MPR121 devices**, differentiated by their I²C addresses. With this approach, all 26 MPR121 devices can be supported using **7 of the 8 available TCA9548A channels**, leaving one channel unused for expansion or debugging.
+To minimize device count, routing complexity, and I²C bus capacitance, the design shall use a **single [TCA9548A](https://www.digikey.com/en/products/detail/texas-instruments/tca9548apwr/3615458) I²C multiplexer**. Each TCA9548A downstream channel may host **up to four MPR121 devices**, differentiated by their I²C addresses. With this approach, all 13 MPR121 devices can be supported using **7 of the 8 available TCA9548A channels**, leaving one channel unused for expansion or debugging.
 
 This architecture is preferred over a "one-sensor-per-mux-channel" approach because it:
 
@@ -119,17 +104,9 @@ This architecture is preferred over a "one-sensor-per-mux-channel" approach beca
 - Keeps I²C timing deterministic
 - Simplifies firmware scanning (each sensor is read once per scan cycle)
 
-Each key shall be treated logically as a **1D capacitive slider**, composed of **24 contiguous electrodes**, with position derived in firmware from the combined electrode state.
+Each key shall be treated logically as a **1D capacitive slider**, composed of **12 contiguous electrodes**, with position derived in firmware from the combined electrode state.
 
-> Note: each MPR121 device has an IRQ (interrupt) pin pulled high when touch is registered. The same four MPR121 devices that share a single mux channel also share a single interrupt.
-
-#### Layout
-
-- Board layout, hole placement, and electrode copper areas will be provided in DWG/SVG format
-- Each electrode shall be routed as a dedicated copper area (no shared pads)
-- No electrode shall be stitched together electrically
-- Guard rings, ground pours, or shielding may be added only if they do not reduce sensitivity
-- Electrode routing shall prioritize uniform length and spacing within each key
+> Note: each MPR121 device has an IRQ (interrupt) pin pulled `LOW` when touch is registered.
 
 ### Power
 
