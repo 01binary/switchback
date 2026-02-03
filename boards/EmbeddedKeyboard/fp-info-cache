@@ -1,4 +1,4 @@
-26811721755836162
+26813491854553906
 0402WGF5101TCE
 0402WGF5101TCE
 
@@ -105734,7 +105734,7 @@ igbt diode module
 0
 25
 25
-USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
 usb usb-c 2.0 pd
@@ -106525,3 +106525,10 @@ Varistor VF
 0
 2
 2
+key
+KeyboardKey
+
+
+0
+12
+12

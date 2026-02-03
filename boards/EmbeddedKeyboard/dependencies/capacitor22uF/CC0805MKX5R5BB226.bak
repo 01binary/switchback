@@ -18,13 +18,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CERAMIC-22UF-6.3V-20_-X5R_0805_"
-			(at -3.8145 -2.543 0)
+		(property "Value" "22uf"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CC0805MKX5R5BB226:CC0805MKX5R5BB226"
@@ -56,16 +57,6 @@
 			)
 		)
 		(property "MPN" "CC0805MKX5R5BB226"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "22uf"
 			(at 0 0 0)
 			(effects
 				(font

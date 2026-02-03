@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-various.pretty:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 3.81 0 0)
 			(effects
 				(font

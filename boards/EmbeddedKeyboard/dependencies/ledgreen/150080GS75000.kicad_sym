@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "150080GS75000:150080GS75000"
+		(property "Footprint" "150080SS75000:150080SS75000"
 			(at 0 0 0)
 			(effects
 				(font

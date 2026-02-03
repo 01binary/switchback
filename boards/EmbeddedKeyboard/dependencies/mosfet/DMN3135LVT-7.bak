@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "symbols:SOT95P280X100-6N"
+		(property "Footprint" "DMN3135LVT-7:DMN3135LVT-7"
 			(at 19.05 -94.92 0)
 			(effects
 				(font

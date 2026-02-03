@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCA9548APWR:TCA9548APWR"
+		(property "Footprint" "MCP73831T-2ACI-OT:MCP73831T-2ACI-OT"
 			(at 0 0 0)
 			(effects
 				(font

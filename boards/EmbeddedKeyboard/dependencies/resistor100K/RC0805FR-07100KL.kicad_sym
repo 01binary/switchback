@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RC0805FR-07100KL:RC0805FR-07100KL"
+		(property "Footprint" "TS-1064S-A1B2-D4:TS-1064S-A1B2-D4"
 			(at 0 0 0)
 			(effects
 				(font

@@ -23,4 +23,5 @@
   (lib (name "TS-1064S-A1B2-D4")(type "KiCad")(uri "${KIPRJMOD}/dependencies/switch")(options "")(descr ""))
   (lib (name "CH340C")(type "KiCad")(uri "${KIPRJMOD}/dependencies/usb-to-serial")(options "")(descr ""))
   (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/dependencies/usb")(options "")(descr ""))
+  (lib (name "key")(type "KiCad")(uri "${KIPRJMOD}/dependencies/key/key.pretty")(options "")(descr ""))
 )

@@ -451,7 +451,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(property "Footprint" "CH340C:CH340C"
 				(at -18.542 30.226 0)
 				(effects
 					(font
@@ -1264,7 +1264,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3135LVT.pdf"
@@ -2456,7 +2455,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM3671MFX-3.3_NOPB:LM3671MFX-3.3_NOPB"
+			(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2822,7 +2821,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+			(property "Footprint" "MPR121QR2:MPR121QR2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4907,147 +4906,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor PCB-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TCA9548APWR:TCA9548APWR"
 			(pin_names
 				(offset 0.254)
@@ -5071,7 +4929,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PW24_TEX"
+			(property "Footprint" "MCP73831T-2ACI-OT:MCP73831T-2ACI-OT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5098,14 +4956,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "TCA9548APWR"
@@ -7745,16 +7595,16 @@
 		(uuid "909e9221-8d8a-49ce-95d0-c9b31cb1cf84")
 	)
 	(junction
-		(at 422.91 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "933cc0e1-bed7-42d9-b26b-ec7ed4941ffa")
-	)
-	(junction
 		(at 175.26 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94b78a73-b355-4c56-8a16-53f85fb17a9f")
+	)
+	(junction
+		(at 422.91 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980c0267-19dc-4237-8aee-f15432e57ff3")
 	)
 	(junction
 		(at 389.89 232.41)
@@ -7797,12 +7647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b37a4106-e6d9-4b59-bf30-d16a4db70306")
-	)
-	(junction
-		(at 464.82 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b74a9221-e99c-4ae5-a919-34eef3a1e2ba")
 	)
 	(junction
 		(at 359.41 172.72)
@@ -7853,6 +7697,12 @@
 		(uuid "cbb534e3-0fd0-46bc-8f9d-707587177814")
 	)
 	(junction
+		(at 464.82 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e67f4c-823e-423f-ac1c-a282f40c8dd2")
+	)
+	(junction
 		(at 257.81 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7893,6 +7743,46 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7d18ad2-5e74-4254-85dd-16ec1cff3b5e")
+	)
+	(no_connect
+		(at 368.3 45.72)
+		(uuid "2d5ddb48-a3e4-4a0b-ac21-34a787a2f523")
+	)
+	(no_connect
+		(at 368.3 50.8)
+		(uuid "3e4e0ba6-e10b-4402-a5c5-b3055a2779a0")
+	)
+	(no_connect
+		(at 232.41 62.23)
+		(uuid "4b681fb7-7f03-4457-b1dd-e67cc2a31845")
+	)
+	(no_connect
+		(at 368.3 48.26)
+		(uuid "7946f129-970e-4497-bae4-d17a236ff3f0")
+	)
+	(no_connect
+		(at 262.89 69.85)
+		(uuid "97854cb4-9eaf-4650-9324-a2e27ba444f6")
+	)
+	(no_connect
+		(at 262.89 77.47)
+		(uuid "bea21407-5bab-4d36-bd42-0856e3ebd122")
+	)
+	(no_connect
+		(at 262.89 64.77)
+		(uuid "de3c9fe0-af8a-477c-80af-a87277a9d1f6")
+	)
+	(no_connect
+		(at 262.89 67.31)
+		(uuid "ea553039-5170-4b0c-84e1-96b5df1062a9")
+	)
+	(no_connect
+		(at 262.89 95.25)
+		(uuid "f679fd91-0e01-47bf-8220-29bfe21be4ab")
+	)
+	(no_connect
+		(at 368.3 53.34)
+		(uuid "fb33ec33-f16e-49f2-bf2e-fc1b3d3ac953")
 	)
 	(wire
 		(pts
@@ -12691,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 372.11 39.878 90)
 			(effects
 				(font
@@ -13029,7 +12919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -13295,7 +13185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 310.388 45.72 90)
 			(effects
 				(font
@@ -13547,6 +13437,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 464.82 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "096be94f-a5cb-4fdc-ae97-63197621d2e5")
+		(property "Reference" "#PWR098"
+			(at 464.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 464.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 464.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 464.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a075327-1cbf-44a1-b6f8-dda44177f9fa")
+		)
+		(instances
+			(project "EmbeddedKeyboard"
+				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 232.41 90)
 		(mirror x)
 		(unit 1)
@@ -13704,7 +13660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 521.208 41.91 90)
 			(effects
 				(font
@@ -14109,7 +14065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 528.32 172.72 0)
 			(effects
 				(font
@@ -14179,7 +14135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 308.61 309.88 0)
 			(effects
 				(font
@@ -14600,7 +14556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 449.58 44.45 0)
 			(effects
 				(font
@@ -14944,7 +14900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 308.61 209.55 0)
 			(effects
 				(font
@@ -15296,7 +15252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 355.6 170.942 90)
 			(effects
 				(font
@@ -15715,7 +15671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 132.08 273.05 0)
 			(effects
 				(font
@@ -15786,7 +15742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 191.77 217.17 0)
 			(effects
 				(font
@@ -15922,7 +15878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 242.57 209.55 0)
 			(effects
 				(font
@@ -16407,7 +16363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 462.28 190.5 0)
 			(effects
 				(font
@@ -16677,7 +16633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 526.542 90.17 90)
 			(effects
 				(font
@@ -16820,7 +16776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 396.24 190.5 0)
 			(effects
 				(font
@@ -17542,7 +17498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 535.178 41.91 90)
 			(effects
 				(font
@@ -18009,7 +17965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 487.68 170.942 90)
 			(effects
 				(font
@@ -18218,7 +18174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 389.89 217.17 0)
 			(effects
 				(font
@@ -18699,7 +18655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -18905,7 +18861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 289.56 170.942 90)
 			(effects
 				(font
@@ -19244,7 +19200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -20233,7 +20189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 372.11 38.862 90)
 			(effects
 				(font
@@ -20573,7 +20529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 330.2 190.5 0)
 			(effects
 				(font
@@ -20779,7 +20735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 496.57 337.82 0)
 			(effects
 				(font
@@ -20988,7 +20944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 132.08 290.83 0)
 			(effects
 				(font
@@ -21123,7 +21079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 91.44 170.942 90)
 			(effects
 				(font
@@ -21265,7 +21221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 505.968 41.91 90)
 			(effects
 				(font
@@ -21862,7 +21818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RTT01513JTH:RTT01513JTH"
 			(at 182.88 46.228 90)
 			(effects
 				(font
@@ -22664,7 +22620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 423.672 95.25 90)
 			(effects
 				(font
@@ -22806,7 +22762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RTT01513JTH:RTT01513JTH"
 			(at 168.91 46.228 90)
 			(effects
 				(font
@@ -22949,7 +22905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 59.69 217.17 0)
 			(effects
 				(font
@@ -23214,7 +23170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RC0805FR-072K49L:RC0805FR-072K49L"
 			(at 83.312 114.3 90)
 			(effects
 				(font
@@ -23357,7 +23313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 66.04 172.72 0)
 			(effects
 				(font
@@ -23493,7 +23449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 396.24 172.72 0)
 			(effects
 				(font
@@ -23629,7 +23585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 158.4452 125.73 0)
 			(effects
 				(font
@@ -24571,7 +24527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 264.16 290.83 0)
 			(effects
 				(font
@@ -24708,7 +24664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 415.29 337.82 0)
 			(effects
 				(font
@@ -24836,7 +24792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 330.2 273.05 0)
 			(effects
 				(font
@@ -24907,7 +24863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 125.73 217.17 0)
 			(effects
 				(font
@@ -25042,7 +24998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 110.49 209.55 0)
 			(effects
 				(font
@@ -25267,7 +25223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 361.95 337.82 0)
 			(effects
 				(font
@@ -25395,7 +25351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 264.16 190.5 0)
 			(effects
 				(font
@@ -25466,7 +25422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 126.6952 45.72 0)
 			(effects
 				(font
@@ -25804,7 +25760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "150080GS75000:150080GS75000"
 			(at 180.34 102.87 0)
 			(effects
 				(font
@@ -25913,69 +25869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor PCB-altium-import:GND_POWER_GROUND")
-		(at 464.82 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "655b8454-d71f-4410-ab85-6c1651415b85")
-		(property "Reference" "#PWR098"
-			(at 464.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 464.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 464.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 464.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 464.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b6fbee70-37f9-42b3-a2d3-282e14101076")
-		)
-		(instances
-			(project "EmbeddedOscilloscope"
-				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 29.21 43.18 0)
 		(unit 1)
@@ -26002,7 +25895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 30.1752 46.99 0)
 			(effects
 				(font
@@ -26146,7 +26039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 388.62 337.82 0)
 			(effects
 				(font
@@ -26600,7 +26493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 264.16 273.05 0)
 			(effects
 				(font
@@ -26671,7 +26564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 257.81 317.5 0)
 			(effects
 				(font
@@ -26806,7 +26699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "0402WGF5101TCE:0402WGF5101TCE"
 			(at 386.08 92.71 0)
 			(effects
 				(font
@@ -26911,7 +26804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 66.04 190.5 0)
 			(effects
 				(font
@@ -27111,7 +27004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 44.45 309.88 0)
 			(effects
 				(font
@@ -27335,7 +27228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 198.12 290.83 0)
 			(effects
 				(font
@@ -27538,7 +27431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -27738,7 +27631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 421.64 170.942 90)
 			(effects
 				(font
@@ -27879,7 +27772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 91.44 271.272 90)
 			(effects
 				(font
@@ -28020,7 +27913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 325.12 55.372 90)
 			(effects
 				(font
@@ -29411,7 +29304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 257.81 217.17 0)
 			(effects
 				(font
@@ -29808,7 +29701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 506.73 209.55 0)
 			(effects
 				(font
@@ -30032,7 +29925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 330.2 290.83 0)
 			(effects
 				(font
@@ -30101,7 +29994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 157.48 271.272 90)
 			(effects
 				(font
@@ -30570,7 +30463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 110.49 309.88 0)
 			(effects
 				(font
@@ -30792,7 +30685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "150080SS75000:150080SS75000"
 			(at 177.8 90.17 0)
 			(effects
 				(font
@@ -31251,7 +31144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 289.56 271.272 90)
 			(effects
 				(font
@@ -31392,7 +31285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 80.518 114.3 90)
 			(effects
 				(font
@@ -31797,7 +31690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 176.53 309.88 0)
 			(effects
 				(font
@@ -32019,7 +31912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RC0805FR-07100KL:RC0805FR-07100KL"
 			(at 43.688 33.02 90)
 			(effects
 				(font
@@ -32292,7 +32185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 223.52 271.272 90)
 			(effects
 				(font
@@ -32499,7 +32392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 25.4 271.272 90)
 			(effects
 				(font
@@ -32768,7 +32661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 321.0052 107.95 0)
 			(effects
 				(font
@@ -32911,7 +32804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 198.12 273.05 0)
 			(effects
 				(font
@@ -32982,7 +32875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 330.2 172.72 0)
 			(effects
 				(font
@@ -33053,7 +32946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 323.85 217.17 0)
 			(effects
 				(font
@@ -33123,7 +33016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 264.16 172.72 0)
 			(effects
 				(font
@@ -34182,7 +34075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "CH340C:CH340C"
 			(at 339.598 18.034 0)
 			(effects
 				(font
@@ -34433,7 +34326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 440.69 209.55 0)
 			(effects
 				(font
@@ -34854,7 +34747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 125.73 317.5 0)
 			(effects
 				(font
@@ -35187,7 +35080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 157.48 170.942 90)
 			(effects
 				(font
@@ -35593,7 +35486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 198.12 172.72 0)
 			(effects
 				(font
@@ -35924,7 +35817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 44.45 209.55 0)
 			(effects
 				(font
@@ -36215,7 +36108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 521.97 337.82 0)
 			(effects
 				(font
@@ -36828,7 +36721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RE0805FRE071KL:RE0805FRE071KL"
 			(at 166.37 104.648 90)
 			(effects
 				(font
@@ -37035,7 +36928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 176.53 209.55 0)
 			(effects
 				(font
@@ -37325,7 +37218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 326.39 104.14 0)
 			(effects
 				(font
@@ -37468,7 +37361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 61.9252 116.84 0)
 			(effects
 				(font
@@ -37807,7 +37700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 198.12 190.5 0)
 			(effects
 				(font
@@ -37877,7 +37770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 242.57 309.88 0)
 			(effects
 				(font
@@ -38102,7 +37995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 441.96 337.82 0)
 			(effects
 				(font
@@ -38230,7 +38123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RE0805FRE071KL:RE0805FRE071KL"
 			(at 166.37 91.948 90)
 			(effects
 				(font
@@ -38373,7 +38266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 59.69 317.5 0)
 			(effects
 				(font
@@ -38638,7 +38531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 455.93 217.17 0)
 			(effects
 				(font
@@ -39036,7 +38929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "0402WGF5101TCE:0402WGF5101TCE"
 			(at 377.19 90.17 0)
 			(effects
 				(font
@@ -39272,7 +39165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 323.85 317.5 0)
 			(effects
 				(font
@@ -39342,7 +39235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 66.04 290.83 0)
 			(effects
 				(font
@@ -39610,7 +39503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPR121QR2:QFN40P300X300X60-20N"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 374.65 209.55 0)
 			(effects
 				(font
@@ -39965,7 +39858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 191.77 317.5 0)
 			(effects
 				(font
@@ -40035,7 +39928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RESC2012X60N"
+		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
 			(at 521.97 217.17 0)
 			(effects
 				(font
@@ -40495,7 +40388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 25.4 170.942 90)
 			(effects
 				(font
@@ -40638,7 +40531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 462.28 172.72 0)
 			(effects
 				(font
@@ -40710,7 +40603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+		(property "Footprint" "ESP32-WROOM-32E-N4:ESP32-WROOM-32E-N4"
 			(at 264.16 119.38 0)
 			(effects
 				(font
@@ -41151,7 +41044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW24_TEX"
+		(property "Footprint" "MCP73831T-2ACI-OT:MCP73831T-2ACI-OT"
 			(at 441.96 93.98 0)
 			(effects
 				(font
@@ -41353,7 +41246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM3671MFX-3.3_NOPB:LM3671MFX-3.3_NOPB"
+		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -41727,6 +41620,72 @@
 			(project "EmbeddedKeyboard"
 				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 422.91 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb03ecd-12a1-49bc-949b-cc5d2cfa1ab6")
+		(property "Reference" "#PWR097"
+			(at 422.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 422.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 422.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 422.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 422.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eedde255-637e-43b7-920f-3c819a802c5e")
+		)
+		(instances
+			(project "EmbeddedKeyboard"
+				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -42808,7 +42767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 468.63 337.82 0)
 			(effects
 				(font
@@ -43002,7 +42961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 223.52 170.942 90)
 			(effects
 				(font
@@ -43211,7 +43170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 407.67 43.18 0)
 			(effects
 				(font
@@ -43813,7 +43772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 528.32 190.5 0)
 			(effects
 				(font
@@ -44048,69 +44007,6 @@
 			(project "EmbeddedKeyboard"
 				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
 					(reference "TP105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor PCB-altium-import:GND_POWER_GROUND")
-		(at 422.91 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8f4300e-af2a-434b-893b-16c33feffc36")
-		(property "Reference" "#PWR097"
-			(at 422.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 422.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 422.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 422.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a6745acc-3763-4262-87bc-8dbf83f280fd")
-		)
-		(instances
-			(project "EmbeddedOscilloscope"
-				(path "/875111d0-4522-47ce-a46c-46f567ca7f14"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -44398,7 +44294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
 			(at 515.112 90.17 90)
 			(effects
 				(font
@@ -44671,7 +44567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL03_SAM"
+		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
 			(at 66.04 273.05 0)
 			(effects
 				(font

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LM3671MFX-3.3_NOPB:LM3671MFX-3.3_NOPB"
+		(property "Footprint" "MPR121QR2:MPR121QR2"
 			(at 0 0 0)
 			(effects
 				(font
