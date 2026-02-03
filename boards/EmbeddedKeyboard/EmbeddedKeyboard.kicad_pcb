@@ -1163,7 +1163,6 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "075f8d33-b762-4a3e-906d-407aa17bcf79")
 		(at 88.732447 69.985042)
@@ -12468,7 +12467,6 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "74ed3ce9-e845-49f6-ab9f-e92c5a6b9098")
 		(at 217.132079 110.016502)
@@ -19888,7 +19886,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "a33d6e44-79bc-45ad-9d12-3c790232b9a6")
 		(at 217.981399 55.959482)
@@ -26127,7 +26124,6 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "cbcd14ff-b969-4814-9642-b4c3c22e2f1f")
 		(at 100.56726 110.016502)
@@ -28940,7 +28936,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "db73f540-b298-4fcf-8048-adcb1f83f0eb")
 		(at 176.558234 149.391792)
@@ -33668,7 +33663,6 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "f7e4eac7-d543-46aa-8266-ffa8bfa3ec2d")
 		(at 144.414008 55.959482)
@@ -36193,7 +36187,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "feed9d60-24de-4632-8b50-8aebca60b9fd")
 		(at 217.132079 149.751624)
@@ -38237,7 +38230,6 @@
 			(type solid)
 		)
 		(fill no)
-		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "cbd05e2d-aafd-4e3c-b618-88d6e674ad6a")
 	)
