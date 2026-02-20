@@ -8986,6 +8986,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 92.71) (xy 262.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbb3fdb-5965-4c47-b60c-c586269efdea")
+	)
+	(wire
+		(pts
 			(xy 171.45 118.11) (xy 171.45 129.54)
 		)
 		(stroke
@@ -9393,6 +9403,16 @@
 			(type default)
 		)
 		(uuid "a43e2b19-0cef-41a9-b3b0-5505c9b6876c")
+	)
+	(wire
+		(pts
+			(xy 264.16 90.17) (xy 262.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ef4f5f-e553-47a9-9722-f664b5defcfb")
 	)
 	(wire
 		(pts
@@ -10734,7 +10754,7 @@
 			)
 		)
 	)
-	(global_label "SDL5"
+	(global_label "SDA5"
 		(shape input)
 		(at 502.92 116.84 0)
 		(fields_autoplaced yes)
@@ -10746,7 +10766,7 @@
 		)
 		(uuid "0f3adfb4-7c31-4433-8b3c-89d3961e9597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.6223 116.84 0)
+			(at 510.6828 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10776,7 @@
 			)
 		)
 	)
-	(global_label "IRQ9"
+	(global_label "IRQ5"
 		(shape input)
 		(at 262.89 80.01 0)
 		(fields_autoplaced yes)
@@ -10888,7 +10908,7 @@
 			)
 		)
 	)
-	(global_label "IRQ6"
+	(global_label "IRQ8"
 		(shape input)
 		(at 262.89 72.39 0)
 		(fields_autoplaced yes)
@@ -11110,7 +11130,7 @@
 	)
 	(global_label "SCL_IN"
 		(shape output)
-		(at 262.89 92.71 0)
+		(at 264.16 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11120,7 +11140,7 @@
 		)
 		(uuid "48403d12-dd7c-4158-9c82-247811bef82f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.2857 92.71 0)
+			(at 273.5557 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +11194,7 @@
 			)
 		)
 	)
-	(global_label "IRQ8"
+	(global_label "IRQ6"
 		(shape input)
 		(at 262.89 113.03 0)
 		(fields_autoplaced yes)
@@ -11240,7 +11260,7 @@
 			)
 		)
 	)
-	(global_label "IRQ2"
+	(global_label "IRQ11"
 		(shape input)
 		(at 262.89 97.79 0)
 		(fields_autoplaced yes)
@@ -11252,7 +11272,7 @@
 		)
 		(uuid "51f3b890-b0ef-4700-8062-142c93e5bfc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.29 97.79 0)
+			(at 271.4995 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11282,7 @@
 			)
 		)
 	)
-	(global_label "IRQ5"
+	(global_label "IRQ9"
 		(shape input)
 		(at 262.89 74.93 0)
 		(fields_autoplaced yes)
@@ -11372,7 +11392,7 @@
 			)
 		)
 	)
-	(global_label "IRQ11"
+	(global_label "IRQ3"
 		(shape input)
 		(at 262.89 85.09 0)
 		(fields_autoplaced yes)
@@ -11384,7 +11404,7 @@
 		)
 		(uuid "5bf63f80-2725-47c2-a70b-28446ca1b5b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.4995 85.09 0)
+			(at 270.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11436,7 @@
 			)
 		)
 	)
-	(global_label "IRQ0"
+	(global_label "IRQ4"
 		(shape input)
 		(at 262.89 105.41 0)
 		(fields_autoplaced yes)
@@ -11570,7 +11590,7 @@
 			)
 		)
 	)
-	(global_label "IRQ12"
+	(global_label "IRQ2"
 		(shape input)
 		(at 262.89 87.63 0)
 		(fields_autoplaced yes)
@@ -11582,7 +11602,7 @@
 		)
 		(uuid "80cea8fb-8509-4f78-9554-72d068770a82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.4995 87.63 0)
+			(at 270.29 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,7 +11612,7 @@
 			)
 		)
 	)
-	(global_label "SCA6"
+	(global_label "SCL6"
 		(shape input)
 		(at 502.92 109.22 0)
 		(fields_autoplaced yes)
@@ -11604,7 +11624,7 @@
 		)
 		(uuid "8244ed84-92eb-41b2-adaf-15b67cce4426")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.6828 109.22 0)
+			(at 510.6223 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12008,7 @@
 			)
 		)
 	)
-	(global_label "IRQ10"
+	(global_label "IRQ0"
 		(shape input)
 		(at 262.89 82.55 0)
 		(fields_autoplaced yes)
@@ -12000,7 +12020,7 @@
 		)
 		(uuid "c1704f65-f0bf-464d-ae21-8f51b82c79e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.4995 82.55 0)
+			(at 270.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +12030,7 @@
 			)
 		)
 	)
-	(global_label "IRQ4"
+	(global_label "IRQ1"
 		(shape input)
 		(at 262.89 102.87 0)
 		(fields_autoplaced yes)
@@ -12054,7 +12074,7 @@
 			)
 		)
 	)
-	(global_label "IRQ3"
+	(global_label "IRQ10"
 		(shape input)
 		(at 262.89 100.33 0)
 		(fields_autoplaced yes)
@@ -12066,7 +12086,7 @@
 		)
 		(uuid "cde7695b-2d5e-4e22-965a-18b909fcf50b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.29 100.33 0)
+			(at 271.4995 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12096,7 @@
 			)
 		)
 	)
-	(global_label "IRQ1"
+	(global_label "IRQ12"
 		(shape input)
 		(at 262.89 107.95 0)
 		(fields_autoplaced yes)
@@ -12088,7 +12108,7 @@
 		)
 		(uuid "ce8d851a-46b0-4b01-9745-1fb57172693e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.29 107.95 0)
+			(at 271.4995 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12120,7 @@
 	)
 	(global_label "SDA_IN"
 		(shape output)
-		(at 262.89 90.17 0)
+		(at 264.16 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12110,7 +12130,7 @@
 		)
 		(uuid "d53aff8a-ef49-43e2-aadb-f54ee3534542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.3462 90.17 0)
+			(at 273.6162 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "22R"
 			(at 372.364 35.052 90)
 			(effects
 				(font
@@ -12581,7 +12601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 372.11 39.878 90)
 			(effects
 				(font
@@ -12600,15 +12620,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 372.11 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 372.11 38.1 0)
 			(effects
 				(font
@@ -12673,7 +12684,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C25744"
+		(property "LCSC Part Number" "C17561 "
 			(at 372.11 38.1 0)
 			(effects
 				(font
@@ -12919,7 +12930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -12940,6 +12951,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -13185,7 +13205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 310.388 45.72 90)
 			(effects
 				(font
@@ -13204,15 +13224,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 308.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 308.61 45.72 0)
 			(effects
 				(font
@@ -13660,7 +13671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 521.208 41.91 90)
 			(effects
 				(font
@@ -13679,15 +13690,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 519.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 519.43 41.91 0)
 			(effects
 				(font
@@ -14065,7 +14067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 528.32 172.72 0)
 			(effects
 				(font
@@ -14086,6 +14088,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 528.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 528.32 172.72 0)
 			(effects
 				(font
@@ -14260,6 +14271,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C91322"
+			(at 308.61 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14556,7 +14576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 449.58 44.45 0)
 			(effects
 				(font
@@ -15028,6 +15048,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 308.61 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "55d0d386-67b7-47a6-861d-5fe66be2d680")
 		)
@@ -15252,7 +15281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 170.942 90)
 			(effects
 				(font
@@ -15271,15 +15300,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 355.6 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 355.6 172.72 0)
 			(effects
 				(font
@@ -15490,7 +15510,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C295747"
+		(property "LCSC Part Number" "C51940124"
 			(at 176.53 116.84 0)
 			(effects
 				(font
@@ -15671,7 +15691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 273.05 0)
 			(effects
 				(font
@@ -15692,6 +15712,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 132.08 273.05 0)
 			(effects
 				(font
@@ -15742,7 +15771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.77 217.17 0)
 			(effects
 				(font
@@ -15762,6 +15791,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 191.77 217.17 0)
 			(effects
 				(font
@@ -16003,6 +16041,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C91322"
+			(at 242.57 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16363,7 +16410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 462.28 190.5 0)
 			(effects
 				(font
@@ -16384,6 +16431,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 462.28 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 462.28 190.5 0)
 			(effects
 				(font
@@ -16633,7 +16689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 526.542 90.17 90)
 			(effects
 				(font
@@ -16652,15 +16708,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 528.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 528.32 90.17 0)
 			(effects
 				(font
@@ -16776,7 +16823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 396.24 190.5 0)
 			(effects
 				(font
@@ -16797,6 +16844,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 396.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 396.24 190.5 0)
 			(effects
 				(font
@@ -17498,7 +17554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 535.178 41.91 90)
 			(effects
 				(font
@@ -17517,15 +17573,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 533.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 533.4 41.91 0)
 			(effects
 				(font
@@ -17965,7 +18012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 487.68 170.942 90)
 			(effects
 				(font
@@ -17984,15 +18031,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 487.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 487.68 172.72 0)
 			(effects
 				(font
@@ -18174,7 +18212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 389.89 217.17 0)
 			(effects
 				(font
@@ -18194,6 +18232,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 389.89 217.17 0)
 			(effects
 				(font
@@ -18538,7 +18585,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C295747"
+		(property "LCSC Part Number" "C51940124"
 			(at 35.56 105.41 0)
 			(effects
 				(font
@@ -18655,7 +18702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -18674,15 +18721,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 104.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C7171 "
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -18861,7 +18899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 289.56 170.942 90)
 			(effects
 				(font
@@ -18880,15 +18918,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 289.56 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 289.56 172.72 0)
 			(effects
 				(font
@@ -19200,7 +19229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -19219,15 +19248,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C7171 "
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -20181,7 +20201,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "22R"
 			(at 372.364 43.688 90)
 			(effects
 				(font
@@ -20189,7 +20209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 372.11 38.862 90)
 			(effects
 				(font
@@ -20208,15 +20228,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 372.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 372.11 40.64 0)
 			(effects
 				(font
@@ -20281,7 +20292,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C25744"
+		(property "LCSC Part Number" "C17561 "
 			(at 372.11 40.64 0)
 			(effects
 				(font
@@ -20529,7 +20540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 190.5 0)
 			(effects
 				(font
@@ -20550,6 +20561,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 330.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 330.2 190.5 0)
 			(effects
 				(font
@@ -20944,7 +20964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 290.83 0)
 			(effects
 				(font
@@ -20965,6 +20985,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 132.08 290.83 0)
 			(effects
 				(font
@@ -21079,7 +21108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 170.942 90)
 			(effects
 				(font
@@ -21098,15 +21127,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 91.44 172.72 0)
 			(effects
 				(font
@@ -21221,7 +21241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 505.968 41.91 90)
 			(effects
 				(font
@@ -21240,15 +21260,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 504.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 504.19 41.91 0)
 			(effects
 				(font
@@ -21818,7 +21829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTT01513JTH:RTT01513JTH"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 46.228 90)
 			(effects
 				(font
@@ -21837,15 +21848,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C102736"
 			(at 182.88 44.45 0)
 			(effects
 				(font
@@ -22620,7 +22622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 423.672 95.25 90)
 			(effects
 				(font
@@ -22639,15 +22641,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 425.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 425.45 95.25 0)
 			(effects
 				(font
@@ -22762,7 +22755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTT01513JTH:RTT01513JTH"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 46.228 90)
 			(effects
 				(font
@@ -22781,15 +22774,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C102736"
 			(at 168.91 44.45 0)
 			(effects
 				(font
@@ -22905,7 +22889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 217.17 0)
 			(effects
 				(font
@@ -22925,6 +22909,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 59.69 217.17 0)
 			(effects
 				(font
@@ -23170,7 +23163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-072K49L:RC0805FR-072K49L"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 114.3 90)
 			(effects
 				(font
@@ -23189,15 +23182,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -23313,7 +23297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 172.72 0)
 			(effects
 				(font
@@ -23334,6 +23318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 66.04 172.72 0)
 			(effects
 				(font
@@ -23449,7 +23442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 396.24 172.72 0)
 			(effects
 				(font
@@ -23470,6 +23463,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 396.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 396.24 172.72 0)
 			(effects
 				(font
@@ -23585,7 +23587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 125.73 0)
 			(effects
 				(font
@@ -23604,15 +23606,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C49062 "
 			(at 157.48 121.92 0)
 			(effects
 				(font
@@ -24527,7 +24520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 290.83 0)
 			(effects
 				(font
@@ -24548,6 +24541,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 264.16 290.83 0)
 			(effects
 				(font
@@ -24792,7 +24794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 273.05 0)
 			(effects
 				(font
@@ -24813,6 +24815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 330.2 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 330.2 273.05 0)
 			(effects
 				(font
@@ -24863,7 +24874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 217.17 0)
 			(effects
 				(font
@@ -24883,6 +24894,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 125.73 217.17 0)
 			(effects
 				(font
@@ -25126,6 +25146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 110.49 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "5e7a55f0-c625-4243-b362-466e7941e9dd")
 		)
@@ -25351,7 +25380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 190.5 0)
 			(effects
 				(font
@@ -25372,6 +25401,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 264.16 190.5 0)
 			(effects
 				(font
@@ -25422,7 +25460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.6952 45.72 0)
 			(effects
 				(font
@@ -25442,15 +25480,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 125.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C49062 "
-			(at 125.73 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +25924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.1752 46.99 0)
 			(effects
 				(font
@@ -25914,15 +25943,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C49062 "
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -26493,7 +26513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 273.05 0)
 			(effects
 				(font
@@ -26514,6 +26534,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 264.16 273.05 0)
 			(effects
 				(font
@@ -26564,7 +26593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 317.5 0)
 			(effects
 				(font
@@ -26584,6 +26613,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 257.81 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 257.81 317.5 0)
 			(effects
 				(font
@@ -26699,7 +26737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402WGF5101TCE:0402WGF5101TCE"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.08 92.71 0)
 			(effects
 				(font
@@ -26804,7 +26842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 190.5 0)
 			(effects
 				(font
@@ -26825,6 +26863,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 66.04 190.5 0)
 			(effects
 				(font
@@ -27132,6 +27179,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 44.45 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fd20e775-83b2-4a62-a7e9-356781b583f1")
 		)
@@ -27228,7 +27284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 290.83 0)
 			(effects
 				(font
@@ -27249,6 +27305,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 198.12 290.83 0)
 			(effects
 				(font
@@ -27431,7 +27496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -27452,6 +27517,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -27631,7 +27705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 421.64 170.942 90)
 			(effects
 				(font
@@ -27650,15 +27724,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 421.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 421.64 172.72 0)
 			(effects
 				(font
@@ -27772,7 +27837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 271.272 90)
 			(effects
 				(font
@@ -27791,15 +27856,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 91.44 273.05 0)
 			(effects
 				(font
@@ -27913,7 +27969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 325.12 55.372 90)
 			(effects
 				(font
@@ -27932,15 +27988,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 325.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 325.12 57.15 0)
 			(effects
 				(font
@@ -29304,7 +29351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 217.17 0)
 			(effects
 				(font
@@ -29324,6 +29371,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 257.81 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 257.81 217.17 0)
 			(effects
 				(font
@@ -29829,6 +29885,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 506.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "edc6c7a9-4142-4ed8-b43d-374af4db5d98")
 		)
@@ -29925,7 +29990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 290.83 0)
 			(effects
 				(font
@@ -29946,6 +30011,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 330.2 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 330.2 290.83 0)
 			(effects
 				(font
@@ -29994,7 +30068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 271.272 90)
 			(effects
 				(font
@@ -30013,15 +30087,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 157.48 273.05 0)
 			(effects
 				(font
@@ -30591,6 +30656,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 110.49 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c7b969c5-4aec-461e-a5cc-5d12b2099ade")
 		)
@@ -31144,7 +31218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 289.56 271.272 90)
 			(effects
 				(font
@@ -31163,15 +31237,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 289.56 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 289.56 273.05 0)
 			(effects
 				(font
@@ -31285,7 +31350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.518 114.3 90)
 			(effects
 				(font
@@ -31304,15 +31369,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -31818,6 +31874,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 176.53 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "db8647ff-4f7f-4989-94d2-f439960fa6d6")
 		)
@@ -31912,7 +31977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0805FR-07100KL:RC0805FR-07100KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.688 33.02 90)
 			(effects
 				(font
@@ -31931,15 +31996,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 41.91 33.02 0)
 			(effects
 				(font
@@ -32185,7 +32241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 271.272 90)
 			(effects
 				(font
@@ -32204,15 +32260,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 223.52 273.05 0)
 			(effects
 				(font
@@ -32392,7 +32439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 271.272 90)
 			(effects
 				(font
@@ -32411,15 +32458,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 25.4 273.05 0)
 			(effects
 				(font
@@ -32661,7 +32699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 321.0052 107.95 0)
 			(effects
 				(font
@@ -32681,15 +32719,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 320.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C49062 "
-			(at 320.04 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32804,7 +32833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 273.05 0)
 			(effects
 				(font
@@ -32825,6 +32854,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 198.12 273.05 0)
 			(effects
 				(font
@@ -32875,7 +32913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 172.72 0)
 			(effects
 				(font
@@ -32896,6 +32934,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 330.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 330.2 172.72 0)
 			(effects
 				(font
@@ -32946,7 +32993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 217.17 0)
 			(effects
 				(font
@@ -32966,6 +33013,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 323.85 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 323.85 217.17 0)
 			(effects
 				(font
@@ -33016,7 +33072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 172.72 0)
 			(effects
 				(font
@@ -33037,6 +33093,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 264.16 172.72 0)
 			(effects
 				(font
@@ -34103,15 +34168,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part no" "C7464026"
-			(at 358.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 358.14 48.26 0)
 			(effects
@@ -34454,6 +34510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 440.69 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "5c341ffd-3323-40aa-aa37-da5a72e3f218")
 		)
@@ -34747,7 +34812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 317.5 0)
 			(effects
 				(font
@@ -34767,6 +34832,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 125.73 317.5 0)
 			(effects
 				(font
@@ -35080,7 +35154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 170.942 90)
 			(effects
 				(font
@@ -35099,15 +35173,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 157.48 172.72 0)
 			(effects
 				(font
@@ -35486,7 +35551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 172.72 0)
 			(effects
 				(font
@@ -35508,6 +35573,15 @@
 		)
 		(property "Description" ""
 			(at 198.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
+			(at 199.644 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35942,6 +36016,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C91322"
+			(at 44.45 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -36530,15 +36613,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part no" "C155326 "
-			(at 312.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" ""
 			(at 312.42 46.99 0)
 			(effects
@@ -36721,7 +36795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RE0805FRE071KL:RE0805FRE071KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 104.648 90)
 			(effects
 				(font
@@ -36740,15 +36814,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -37056,6 +37121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 176.53 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "07fabc1c-9fec-46e7-a702-bcbfe80faa5f")
 		)
@@ -37218,7 +37292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 326.39 104.14 0)
 			(effects
 				(font
@@ -37237,15 +37311,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 326.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C7171 "
 			(at 326.39 104.14 0)
 			(effects
 				(font
@@ -37361,7 +37426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 61.9252 116.84 0)
 			(effects
 				(font
@@ -37380,15 +37445,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C49062 "
 			(at 60.96 113.03 0)
 			(effects
 				(font
@@ -37700,7 +37756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 190.5 0)
 			(effects
 				(font
@@ -37721,6 +37777,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 198.12 190.5 0)
 			(effects
 				(font
@@ -37895,6 +37960,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C91322"
+			(at 242.57 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -38123,7 +38197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RE0805FRE071KL:RE0805FRE071KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 91.948 90)
 			(effects
 				(font
@@ -38142,15 +38216,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 166.37 90.17 0)
 			(effects
 				(font
@@ -38266,7 +38331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 317.5 0)
 			(effects
 				(font
@@ -38286,6 +38351,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 59.69 317.5 0)
 			(effects
 				(font
@@ -38531,7 +38605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 455.93 217.17 0)
 			(effects
 				(font
@@ -38551,6 +38625,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 455.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 455.93 217.17 0)
 			(effects
 				(font
@@ -38929,7 +39012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402WGF5101TCE:0402WGF5101TCE"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 377.19 90.17 0)
 			(effects
 				(font
@@ -39165,7 +39248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 317.5 0)
 			(effects
 				(font
@@ -39185,6 +39268,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 323.85 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 323.85 317.5 0)
 			(effects
 				(font
@@ -39235,7 +39327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 290.83 0)
 			(effects
 				(font
@@ -39256,6 +39348,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 66.04 290.83 0)
 			(effects
 				(font
@@ -39631,6 +39732,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C91322"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "0e8b79dd-b850-4f59-ad19-8fe837d15a1c")
 		)
@@ -39858,7 +39968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.77 317.5 0)
 			(effects
 				(font
@@ -39878,6 +39988,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 191.77 317.5 0)
 			(effects
 				(font
@@ -39928,7 +40047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RT0805FRE0775KL:RT0805FRE0775KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 521.97 217.17 0)
 			(effects
 				(font
@@ -39948,6 +40067,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 521.97 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25798"
 			(at 521.97 217.17 0)
 			(effects
 				(font
@@ -40388,7 +40516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 170.942 90)
 			(effects
 				(font
@@ -40407,15 +40535,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 25.4 172.72 0)
 			(effects
 				(font
@@ -40531,7 +40650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 462.28 172.72 0)
 			(effects
 				(font
@@ -40552,6 +40671,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 462.28 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 462.28 172.72 0)
 			(effects
 				(font
@@ -40686,7 +40814,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C701341"
+		(property "LCSC Part Number" "C328062 "
 			(at 247.65 85.09 0)
 			(effects
 				(font
@@ -41044,7 +41172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73831T-2ACI-OT:MCP73831T-2ACI-OT"
+		(property "Footprint" "symbols:SOP65P640X120-24N"
 			(at 441.96 93.98 0)
 			(effects
 				(font
@@ -41065,6 +41193,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 441.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C130026 "
 			(at 441.96 93.98 0)
 			(effects
 				(font
@@ -41246,7 +41383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CC0805KKX5R5BB106:CC0805KKX5R5BB106"
+		(property "Footprint" "SSW:SOT95P280X145-5N"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -42961,7 +43098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 170.942 90)
 			(effects
 				(font
@@ -42980,15 +43117,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 223.52 172.72 0)
 			(effects
 				(font
@@ -43170,7 +43298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 407.67 43.18 0)
 			(effects
 				(font
@@ -43772,7 +43900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 528.32 190.5 0)
 			(effects
 				(font
@@ -43793,6 +43921,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 528.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 528.32 190.5 0)
 			(effects
 				(font
@@ -44294,7 +44431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AF0805FR-0710KL:AF0805FR-0710KL"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 515.112 90.17 90)
 			(effects
 				(font
@@ -44313,15 +44450,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 516.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part no" "C100126"
 			(at 516.89 90.17 0)
 			(effects
 				(font
@@ -44567,7 +44695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL03A104KP3NNNC:CL03A104KP3NNNC"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 273.05 0)
 			(effects
 				(font
@@ -44588,6 +44716,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525 "
 			(at 66.04 273.05 0)
 			(effects
 				(font
