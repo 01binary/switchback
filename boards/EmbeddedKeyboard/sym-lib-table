@@ -22,4 +22,5 @@
   (lib (name "CH340C")(type "KiCad")(uri "${KIPRJMOD}/dependencies/usb-to-serial/CH340C.kicad_sym")(options "")(descr ""))
   (lib (name "TS-1064S-A1B2-D4")(type "KiCad")(uri "${KIPRJMOD}/dependencies/switch/TS-1064S-A1B2-D4.kicad_sym")(options "")(descr ""))
   (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/dependencies/usb/USB_C_Receptacle_HRO_TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
+  (lib (name "0805W8F220JT5E")(type "KiCad")(uri "${KIPRJMOD}/dependencies/resistor22/0805W8F220JT5E.kicad_sym")(options "")(descr ""))
 )

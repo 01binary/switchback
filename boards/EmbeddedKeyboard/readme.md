@@ -135,6 +135,7 @@ The circuitry from [Adafruit LM3671 Buck Converter](https://www.adafruit.com/pro
 |[RT0805FRE0775KL](https://www.digikey.com/en/products/detail/yageo/RT0805FRE0775KL/1079396)|75K Resistor
 |[RC0805FR-07100KL](https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544)|100K Resistor
 |[RTT01513JTH](https://www.lcsc.com/product-detail/C102736.html)|51K Resistor
+|[0805W8F220JT5E](https://jlcpcb.com/partdetail/18249-0805W8F220JT5E/C17561)|22 Ohm Resistor
 |[S2B-PH-SM4-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655)|LiPo Battery Connector, Power Switch Connector
 |[CC0805KKX5R5BB106](https://www.digikey.com/en/products/detail/yageo/cc0805kkx5r5bb106/2833624)|10uF Capacitor
 |[CC0805MKX5R5BB226](https://www.digikey.com/en/products/detail/yageo/CC0805MKX5R5BB226/2833629)|22uF Capacitor
